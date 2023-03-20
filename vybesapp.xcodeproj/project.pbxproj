@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C328603D29C168F50018E73B /* vybesappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328603C29C168F50018E73B /* vybesappApp.swift */; };
+		C328604129C168F60018E73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328604029C168F60018E73B /* Assets.xcassets */; };
+		C328604429C168F60018E73B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328604329C168F60018E73B /* Preview Assets.xcassets */; };
+		C328604C29C16CFD0018E73B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328604B29C16CFD0018E73B /* AppDelegate.swift */; };
+		C328605029C16E300018E73B /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328604F29C16E300018E73B /* MainTabBar.swift */; };
+		C328605529C16F0D0018E73B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328605429C16F0D0018E73B /* HomeView.swift */; };
+		C328605729C16F1A0018E73B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328605629C16F1A0018E73B /* SignInView.swift */; };
+		C328605F29C1800A0018E73B /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C328605B29C1800A0018E73B /* Poppins-Regular.ttf */; };
+		C328606029C1800A0018E73B /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C328605C29C1800A0018E73B /* Poppins-SemiBold.ttf */; };
+		C328606129C1800A0018E73B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C328605D29C1800A0018E73B /* Poppins-Bold.ttf */; };
+		C328606229C1800A0018E73B /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C328605E29C1800A0018E73B /* Poppins-Medium.ttf */; };
+		C328606429C180770018E73B /* Font+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328606329C180770018E73B /* Font+Extensions.swift */; };
+		C328606629C180F60018E73B /* NetworkRechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328606529C180F60018E73B /* NetworkRechability.swift */; };
+		C328606829C1810A0018E73B /* LoadingIndicatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328606729C1810A0018E73B /* LoadingIndicatorDelegate.swift */; };
+		C328606A29C181240018E73B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328606929C181240018E73B /* Constant.swift */; };
+		C328606C29C1813D0018E73B /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328606B29C1813D0018E73B /* Handlers.swift */; };
+		C328607029C181C00018E73B /* CatogryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328606F29C181C00018E73B /* CatogryModel.swift */; };
+		C328607229C181D10018E73B /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328607129C181D10018E73B /* ProductModel.swift */; };
+		C328607429C181E70018E73B /* AFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328607329C181E70018E73B /* AFWrapper.swift */; };
+		C328607729C182110018E73B /* dummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328607629C182110018E73B /* dummyData.swift */; };
+		C328607B29C182B90018E73B /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328607A29C182B90018E73B /* BaseVM.swift */; };
+		C328607D29C182E70018E73B /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328607C29C182E70018E73B /* BaseView.swift */; };
+		C328608129C188630018E73B /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608029C188630018E73B /* ButtonStyles.swift */; };
+		C328608629C18A2A0018E73B /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608529C18A2A0018E73B /* PasswordTextField.swift */; };
+		C328608829C18B220018E73B /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608729C18B220018E73B /* EmailTextField.swift */; };
+		C328608A29C18D940018E73B /* SignInVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608929C18D940018E73B /* SignInVM.swift */; };
+		C328608C29C190BC0018E73B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608B29C190BC0018E73B /* Extension.swift */; };
+		C328608F29C191660018E73B /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328608E29C191660018E73B /* HomeHeaderView.swift */; };
+		C328609129C192C20018E73B /* TopBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609029C192C20018E73B /* TopBannerView.swift */; };
+		C328609329C198CD0018E73B /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609229C198CD0018E73B /* HomeVM.swift */; };
+		C328609529C1998A0018E73B /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609429C1998A0018E73B /* CategoryCardView.swift */; };
+		C328609729C19E2F0018E73B /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609629C19E2F0018E73B /* ProductCard.swift */; };
+		C328609929C1A3D60018E73B /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609829C1A3D60018E73B /* ProductDetailsView.swift */; };
+		C328609B29C1A9780018E73B /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609A29C1A9780018E73B /* RatingView.swift */; };
+		C328609E29C1AD4A0018E73B /* IconBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609D29C1AD4A0018E73B /* IconBtnView.swift */; };
+		C32860A029C1AD6D0018E73B /* IconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C328609F29C1AD6D0018E73B /* IconCardView.swift */; };
+		C32860A229C1AE6B0018E73B /* DetailsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32860A129C1AE6B0018E73B /* DetailsHeader.swift */; };
+		C32860A429C1AF8B0018E73B /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32860A329C1AF8B0018E73B /* PageView.swift */; };
+		C32860A729C1D2640018E73B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32860A629C1D2640018E73B /* RootView.swift */; };
+		C32860A929C1D2850018E73B /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32860A829C1D2850018E73B /* ViewRouter.swift */; };
+		FDC66685ED0F904141A455FF /* Pods_vybesapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B1C5FBB92C4758B0B0ED32 /* Pods_vybesapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43B1C5FBB92C4758B0B0ED32 /* Pods_vybesapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vybesapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BBE2AC6DDE49A7B49CDCF8 /* Pods-vybesapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vybesapp.release.xcconfig"; path = "Target Support Files/Pods-vybesapp/Pods-vybesapp.release.xcconfig"; sourceTree = "<group>"; };
+		A6AD6E422AC41E47BDAC3ABA /* Pods-vybesapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vybesapp.debug.xcconfig"; path = "Target Support Files/Pods-vybesapp/Pods-vybesapp.debug.xcconfig"; sourceTree = "<group>"; };
+		C328603929C168F50018E73B /* vybesapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vybesapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328603C29C168F50018E73B /* vybesappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vybesappApp.swift; sourceTree = "<group>"; };
+		C328604029C168F60018E73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C328604329C168F60018E73B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C328604B29C16CFD0018E73B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C328604F29C16E300018E73B /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		C328605429C16F0D0018E73B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C328605629C16F1A0018E73B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		C328605B29C1800A0018E73B /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C328605C29C1800A0018E73B /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C328605D29C1800A0018E73B /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		C328605E29C1800A0018E73B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		C328606329C180770018E73B /* Font+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extensions.swift"; sourceTree = "<group>"; };
+		C328606529C180F60018E73B /* NetworkRechability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRechability.swift; sourceTree = "<group>"; };
+		C328606729C1810A0018E73B /* LoadingIndicatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorDelegate.swift; sourceTree = "<group>"; };
+		C328606929C181240018E73B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C328606B29C1813D0018E73B /* Handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handlers.swift; sourceTree = "<group>"; };
+		C328606F29C181C00018E73B /* CatogryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatogryModel.swift; sourceTree = "<group>"; };
+		C328607129C181D10018E73B /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		C328607329C181E70018E73B /* AFWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFWrapper.swift; sourceTree = "<group>"; };
+		C328607629C182110018E73B /* dummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyData.swift; sourceTree = "<group>"; };
+		C328607A29C182B90018E73B /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		C328607C29C182E70018E73B /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		C328607E29C186390018E73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C328608029C188630018E73B /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		C328608529C18A2A0018E73B /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		C328608729C18B220018E73B /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		C328608929C18D940018E73B /* SignInVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVM.swift; sourceTree = "<group>"; };
+		C328608B29C190BC0018E73B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C328608E29C191660018E73B /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		C328609029C192C20018E73B /* TopBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBannerView.swift; sourceTree = "<group>"; };
+		C328609229C198CD0018E73B /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		C328609429C1998A0018E73B /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		C328609629C19E2F0018E73B /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		C328609829C1A3D60018E73B /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		C328609A29C1A9780018E73B /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		C328609D29C1AD4A0018E73B /* IconBtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBtnView.swift; sourceTree = "<group>"; };
+		C328609F29C1AD6D0018E73B /* IconCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCardView.swift; sourceTree = "<group>"; };
+		C32860A129C1AE6B0018E73B /* DetailsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeader.swift; sourceTree = "<group>"; };
+		C32860A329C1AF8B0018E73B /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		C32860A629C1D2640018E73B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C32860A829C1D2850018E73B /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C328603629C168F50018E73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC66685ED0F904141A455FF /* Pods_vybesapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3B0D809018C8F60F6FD4B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6AD6E422AC41E47BDAC3ABA /* Pods-vybesapp.debug.xcconfig */,
+				95BBE2AC6DDE49A7B49CDCF8 /* Pods-vybesapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C328603029C168F50018E73B = {
+			isa = PBXGroup;
+			children = (
+				C328603B29C168F50018E73B /* vybesapp */,
+				C328603A29C168F50018E73B /* Products */,
+				AF3B0D809018C8F60F6FD4B5 /* Pods */,
+				EF43AF6C31CD96661822E623 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C328603A29C168F50018E73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C328603929C168F50018E73B /* vybesapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C328603B29C168F50018E73B /* vybesapp */ = {
+			isa = PBXGroup;
+			children = (
+				C328607E29C186390018E73B /* Info.plist */,
+				C328607929C182470018E73B /* Base */,
+				C328604A29C16CEF0018E73B /* App */,
+				C328604D29C16D400018E73B /* View+ViewModel */,
+				C328607F29C188410018E73B /* SubViews */,
+				C328606D29C181660018E73B /* Repository */,
+				C328607829C182270018E73B /* Extensions */,
+				C328605929C17FCE0018E73B /* Utilities */,
+				C328604029C168F60018E73B /* Assets.xcassets */,
+				C328604229C168F60018E73B /* Preview Content */,
+			);
+			path = vybesapp;
+			sourceTree = "<group>";
+		};
+		C328604229C168F60018E73B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C328604329C168F60018E73B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C328604A29C16CEF0018E73B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C328603C29C168F50018E73B /* vybesappApp.swift */,
+				C328604B29C16CFD0018E73B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C328604D29C16D400018E73B /* View+ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C32860A529C1D2540018E73B /* Navigation */,
+				C328605329C16EDB0018E73B /* Home */,
+				C328605229C16EBC0018E73B /* ProductDetails */,
+				C328605129C16EAF0018E73B /* SignIn */,
+				C328604E29C16E210018E73B /* MainTabBar */,
+			);
+			path = "View+ViewModel";
+			sourceTree = "<group>";
+		};
+		C328604E29C16E210018E73B /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C328604F29C16E300018E73B /* MainTabBar.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		C328605129C16EAF0018E73B /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				C328608229C18A0B0018E73B /* Components */,
+				C328605629C16F1A0018E73B /* SignInView.swift */,
+				C328608929C18D940018E73B /* SignInVM.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		C328605229C16EBC0018E73B /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C328609C29C1A9920018E73B /* Components */,
+				C328609829C1A3D60018E73B /* ProductDetailsView.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		C328605329C16EDB0018E73B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C328608D29C191590018E73B /* Components */,
+				C328605429C16F0D0018E73B /* HomeView.swift */,
+				C328609229C198CD0018E73B /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C328605929C17FCE0018E73B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C328607529C182070018E73B /* DummyData */,
+				C328605A29C17FDC0018E73B /* Fonts */,
+				C328606529C180F60018E73B /* NetworkRechability.swift */,
+				C328606729C1810A0018E73B /* LoadingIndicatorDelegate.swift */,
+				C328606929C181240018E73B /* Constant.swift */,
+				C328606B29C1813D0018E73B /* Handlers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C328605A29C17FDC0018E73B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C328605D29C1800A0018E73B /* Poppins-Bold.ttf */,
+				C328605E29C1800A0018E73B /* Poppins-Medium.ttf */,
+				C328605B29C1800A0018E73B /* Poppins-Regular.ttf */,
+				C328605C29C1800A0018E73B /* Poppins-SemiBold.ttf */,
+				C328606329C180770018E73B /* Font+Extensions.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C328606D29C181660018E73B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C328606E29C181B20018E73B /* Model */,
+				C328607329C181E70018E73B /* AFWrapper.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C328606E29C181B20018E73B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C328606F29C181C00018E73B /* CatogryModel.swift */,
+				C328607129C181D10018E73B /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C328607529C182070018E73B /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				C328607629C182110018E73B /* dummyData.swift */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		C328607829C182270018E73B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C328608B29C190BC0018E73B /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C328607929C182470018E73B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C328607A29C182B90018E73B /* BaseVM.swift */,
+				C328607C29C182E70018E73B /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C328607F29C188410018E73B /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				C328608029C188630018E73B /* ButtonStyles.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		C328608229C18A0B0018E73B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C328608529C18A2A0018E73B /* PasswordTextField.swift */,
+				C328608729C18B220018E73B /* EmailTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C328608D29C191590018E73B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C328608E29C191660018E73B /* HomeHeaderView.swift */,
+				C328609029C192C20018E73B /* TopBannerView.swift */,
+				C328609429C1998A0018E73B /* CategoryCardView.swift */,
+				C328609629C19E2F0018E73B /* ProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C328609C29C1A9920018E73B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C328609A29C1A9780018E73B /* RatingView.swift */,
+				C328609D29C1AD4A0018E73B /* IconBtnView.swift */,
+				C328609F29C1AD6D0018E73B /* IconCardView.swift */,
+				C32860A129C1AE6B0018E73B /* DetailsHeader.swift */,
+				C32860A329C1AF8B0018E73B /* PageView.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		C32860A529C1D2540018E73B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				C32860A629C1D2640018E73B /* RootView.swift */,
+				C32860A829C1D2850018E73B /* ViewRouter.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		EF43AF6C31CD96661822E623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43B1C5FBB92C4758B0B0ED32 /* Pods_vybesapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C328603829C168F50018E73B /* vybesapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C328604729C168F60018E73B /* Build configuration list for PBXNativeTarget "vybesapp" */;
+			buildPhases = (
+				3C21D8D5326A104EF80500EE /* [CP] Check Pods Manifest.lock */,
+				C328603529C168F50018E73B /* Sources */,
+				C328603629C168F50018E73B /* Frameworks */,
+				C328603729C168F50018E73B /* Resources */,
+				25FCB5DECA4ED8DE8D9A06F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vybesapp;
+			productName = vybesapp;
+			productReference = C328603929C168F50018E73B /* vybesapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C328603129C168F50018E73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C328603829C168F50018E73B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C328603429C168F50018E73B /* Build configuration list for PBXProject "vybesapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C328603029C168F50018E73B;
+			productRefGroup = C328603A29C168F50018E73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C328603829C168F50018E73B /* vybesapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C328603729C168F50018E73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328605F29C1800A0018E73B /* Poppins-Regular.ttf in Resources */,
+				C328606029C1800A0018E73B /* Poppins-SemiBold.ttf in Resources */,
+				C328606129C1800A0018E73B /* Poppins-Bold.ttf in Resources */,
+				C328606229C1800A0018E73B /* Poppins-Medium.ttf in Resources */,
+				C328604429C168F60018E73B /* Preview Assets.xcassets in Resources */,
+				C328604129C168F60018E73B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25FCB5DECA4ED8DE8D9A06F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vybesapp/Pods-vybesapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vybesapp/Pods-vybesapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vybesapp/Pods-vybesapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C21D8D5326A104EF80500EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vybesapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C328603529C168F50018E73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C328609129C192C20018E73B /* TopBannerView.swift in Sources */,
+				C32860A429C1AF8B0018E73B /* PageView.swift in Sources */,
+				C328605729C16F1A0018E73B /* SignInView.swift in Sources */,
+				C328605029C16E300018E73B /* MainTabBar.swift in Sources */,
+				C32860A029C1AD6D0018E73B /* IconCardView.swift in Sources */,
+				C328609329C198CD0018E73B /* HomeVM.swift in Sources */,
+				C328604C29C16CFD0018E73B /* AppDelegate.swift in Sources */,
+				C32860A229C1AE6B0018E73B /* DetailsHeader.swift in Sources */,
+				C328607D29C182E70018E73B /* BaseView.swift in Sources */,
+				C328607029C181C00018E73B /* CatogryModel.swift in Sources */,
+				C328609529C1998A0018E73B /* CategoryCardView.swift in Sources */,
+				C328609929C1A3D60018E73B /* ProductDetailsView.swift in Sources */,
+				C328606429C180770018E73B /* Font+Extensions.swift in Sources */,
+				C32860A929C1D2850018E73B /* ViewRouter.swift in Sources */,
+				C328609E29C1AD4A0018E73B /* IconBtnView.swift in Sources */,
+				C328607B29C182B90018E73B /* BaseVM.swift in Sources */,
+				C328606829C1810A0018E73B /* LoadingIndicatorDelegate.swift in Sources */,
+				C328608629C18A2A0018E73B /* PasswordTextField.swift in Sources */,
+				C328608F29C191660018E73B /* HomeHeaderView.swift in Sources */,
+				C328607729C182110018E73B /* dummyData.swift in Sources */,
+				C328607429C181E70018E73B /* AFWrapper.swift in Sources */,
+				C328608829C18B220018E73B /* EmailTextField.swift in Sources */,
+				C328606629C180F60018E73B /* NetworkRechability.swift in Sources */,
+				C328609729C19E2F0018E73B /* ProductCard.swift in Sources */,
+				C328606C29C1813D0018E73B /* Handlers.swift in Sources */,
+				C328608C29C190BC0018E73B /* Extension.swift in Sources */,
+				C328608129C188630018E73B /* ButtonStyles.swift in Sources */,
+				C328607229C181D10018E73B /* ProductModel.swift in Sources */,
+				C328608A29C18D940018E73B /* SignInVM.swift in Sources */,
+				C328606A29C181240018E73B /* Constant.swift in Sources */,
+				C328605529C16F0D0018E73B /* HomeView.swift in Sources */,
+				C328603D29C168F50018E73B /* vybesappApp.swift in Sources */,
+				C328609B29C1A9780018E73B /* RatingView.swift in Sources */,
+				C32860A729C1D2640018E73B /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C328604529C168F60018E73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C328604629C168F60018E73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C328604829C168F60018E73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6AD6E422AC41E47BDAC3ABA /* Pods-vybesapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vybesapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vybesapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.vybesapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C328604929C168F60018E73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BBE2AC6DDE49A7B49CDCF8 /* Pods-vybesapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vybesapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = vybesapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.vybesapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C328603429C168F50018E73B /* Build configuration list for PBXProject "vybesapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328604529C168F60018E73B /* Debug */,
+				C328604629C168F60018E73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C328604729C168F60018E73B /* Build configuration list for PBXNativeTarget "vybesapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328604829C168F60018E73B /* Debug */,
+				C328604929C168F60018E73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C328603129C168F50018E73B /* Project object */;
+}

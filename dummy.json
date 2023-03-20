@@ -1,0 +1,34 @@
+[
+    {
+        "id": "0",
+        "title": "DESTEK V5 VR Headset",
+        "price": "$ 120.00",
+        "rating": 4.5,
+        "description": "Comfortable & lightweight – Compare to market 3D VR headset, Our VR headset decreased in weight due to plastic component swaps and improvements in manufacturing. The virtual reality headset for kids only weights 9.9oz, it significantly reduce the pressure with the help of adjustable head strap design, making it tight but fairly comfortable fit. The removable facepad of VR head set with hand controllers is made of ultra-soft washable breathing Fabric, helping you stay comfortable during use",
+        "images": "https://i.postimg.cc/L6rzhPQj/1-Varjo-VR-3.png"
+    },
+    {
+        "id": "1",
+        "title": "VR Headset with Remote Controller",
+        "price": "$ 115.00",
+        "rating": 3.9,
+        "description": "Anti-Blue Light Eye Protected HD Lenses – We always put our customers' experience on top priority, we insist VR headset set adopt 94% lens light transmittance and use anti-reflective and anti-blue light coating lens to prevent eyestrain when using the headset. Also sharp HD images are achieved by the aspheric and anti-distortion lens surface. Even to those near-sighted or far, with it, you can get an Incredible Visual Fidelity and Immersive Feeling via this virtual reality goggles",
+        "images": "https://i.postimg.cc/t4WF6g8w/htc-vive-steam-vr-headset-1-1024x810.png"
+    },
+    {
+        "id": "2",
+        "title": "WinDrogon VR",
+        "price": "$ 99.00",
+        "rating": 3.5,
+        "description": "[Ergonomics & excellent heat dissipation] Since VR glasses need to be worn for a long time, we use a safe cushion material to protect the nose, face, head and neck. It leaves no marks on the face even when worn for a long time, and has strong transparency. Strong and fast heat dissipation, no sweat even in summer. The ergonomically manufactured does not cause fatigue even after long-term use, and has excellent elasticity and adjustability",
+        "images": "https://i.postimg.cc/g0KRMTzK/Pico-G2-4k-hero2-234.png"
+    },
+    {
+        "id": "3",
+        "title": "OIVO 3D VR",
+        "price": "$ 160.00",
+        "rating": 4.7,
+        "description": "Upgraded Version: Special virtual reality vr glasses for Nintendo switch & Nintendo Switch OLED Model, would be a big surprise as gift for your friends and family or yourself, this is the upgraded version.(More suitable experience and people with prescription glasses can wear this VR too.).NOTE: Please take out the Joy-Con would be light weight to use, 15~36mm, may not fit for huge nose. Say Goodbye To Carboard Materials: Made of EVA and Oxford materials, super light weight and durable, no worry that your VR glass get mildew in wet weather, includes adjustable headstrap and more thick materials to touch your face, no need to grip the switch console near your head. Watch and Play in VR: HD optimization takes you special experience to watch Youtube and play Super Smash Bros. & Zelda & Super Mario Odyssey etc. (VR games may be updated in succession), Full range with the joysticks and the buttons are covered fully, easy to use when playing action games (I.e. smash bros.)",
+        "images": "https://i.postimg.cc/7L40nkk6/snapdragon-vr820.png"
+    }
+]
